@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(pip install *)",
+      "Bash(python week1/normalized_prices.py)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/**)",
+      "Bash(python3.13 -m pip install yfinance matplotlib pandas -q)",
+      "Bash(MPLBACKEND=Agg python3.13 week1/normalized_prices.py)",
+      "Bash(git add *)",
+      "Bash(git remote *)",
+      "Bash(git -c 'user.name=Bhavjot Singh' -c user.email=bhavjotskhurana@gmail.com commit -m 'Week 1: normalized price performance chart *)",
+      "Bash(git push *)",
+      "Bash(python3.13 week1/morning_brief.py)",
+      "Bash(git -C /Users/bhavjotsingh/Desktop/quant-boot status)",
+      "Bash(git -C /Users/bhavjotsingh/Desktop/quant-boot diff)"
+    ]
+  }
+}
